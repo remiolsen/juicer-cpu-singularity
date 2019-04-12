@@ -11,7 +11,7 @@ From: conda/miniconda2
     conda config --add channels bioconda
     conda install --yes bwa
  
-    echo 'alias awk=gawk' >> ~/.bashrc
+    echo 'alias awk=gawk' >> $HOME/.bashrc
 
     cd /opt
     git clone https://github.com/theaidenlab/juicer.git
